@@ -12,7 +12,11 @@
 }
 .box_1 {
 }
+.box_2 {
+}
 .ellipse {
+}
+.image {
 }
 .placeholder {
 }
@@ -79,6 +83,10 @@
   color:#000000;
   text-align:left;
 }
+.droplist {
+  color:#000000;
+  text-align:left;
+}
 .form_hint {
   color:#999999;
 }
@@ -92,5 +100,7 @@
 ._流程形状 {
 }
 .icon {
+}
+.flow_shape {
 }
 textarea, select, input, button { outline: none; }
