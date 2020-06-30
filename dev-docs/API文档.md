@@ -61,7 +61,7 @@ Message{
 
 
 ### server
-将要描述
+简要描述
 + 接收来自p2p通信子进程的消息并发送给渲染层
 
 请求方式
@@ -85,5 +85,37 @@ Message{
     topic:
 }
 ```
+返回值
++ 无
+
+### on-nameclose
+简要描述
++	通过参数得到RenameDiv组件中的改名信息
+
+请求URL
++	on-nameclose
+
+请求方式
++	通过组件的事件绑定，即@onname-close='父函数名'
+
+参数
++  name
+
+返回值
++ 无
+
+### view
+简要描述
++	通过参数得到当前的点击的chatItem组件所代表的channel名字
+
+请求URL
++	view
+
+请求方式
++	通过组件的事件绑定，即@view='父函数名'
+
+参数
++  name
+
 返回值
 + 无
