@@ -119,3 +119,48 @@ Message{
 
 返回值
 + 无
+
+### send
+简要描述
++   用户通过点击发送或按下回车触发此函数来发送消息
+
+请求URL
++	send
+
+请求方式
++	通过组件的事件绑定@onclick='send'与@keyup.enter.native="send"调用
+
+参数
++  name
+```
+sendMsg {
+    msgName:''      //发送者昵称
+    msgData:''      //消息主体部分
+    channelName: '' //当前所在频道名称
+}
+ ```
+
+返回值
++ 无
+
+### newMsg
+简要描述
++   聊天界面通过此函数接收消息
+
+请求URL
++	newMsg
+
+请求方式
++	父组件通过子组件的引用进行调用
+
+参数
++  name
+```
+msg {
+    msgName:''      //发送者昵称
+    msgData:''      //消息主体部分
+}
+ ```
+
+返回值
++ 无
